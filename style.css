@@ -60,3 +60,12 @@ img{
 body{
     margin: 0;
 }
+p {
+  overflow-wrap: break-word;
+  word-wrap: break-word; /* older browsers */
+}
+
+.body2 p {
+  flex: 1;
+  min-width: 0;
+}
